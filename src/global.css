@@ -1,0 +1,47 @@
+
+/*
+
+
+      Variables theme
+
+
+*/
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+[data-theme='dark'] {
+  --background: #1b1b1b;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: darkred;
+}
+
+/*
+
+
+      Reset Global css
+
+
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, input, button {
+  font-size: 1.2rem;
+}
